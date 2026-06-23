@@ -108,11 +108,11 @@ export default function Skills() {
 
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="font-display font-bold sm:text-4xl text-white mb-4 transition-colors duration-300">
+          <h2 className="font-display font-bold text-3xl sm:text-4xl text-white mb-4 transition-colors duration-300">
             Technical <span className="text-gradient-emerald-blue">Skills</span>
           </h2>
           <div className="h-1 w-20 bg-gradient-to-r from-emerald-500 to-ocean-500 mx-auto rounded-full" />
-          <p className="text-slate-400 mt-4 sm:text-sm font-sans transition-colors duration-300">
+          <p className="text-slate-400 mt-4 text-sm font-sans transition-colors duration-300">
             A granular overview of my technical profile, showcasing domain specialties, programming competencies, and engineering tools.
           </p>
         </div>
