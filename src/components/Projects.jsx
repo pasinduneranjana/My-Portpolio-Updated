@@ -58,11 +58,11 @@ export default function Projects() {
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="font-display font-bold sm:text-4xl text-white mb-4 transition-colors duration-300">
+          <h2 className="font-display font-bold text-3xl sm:text-4xl text-white mb-4 transition-colors duration-300">
             Featured <span className="text-gradient-emerald-blue">Projects</span>
           </h2>
           <div className="h-1 w-20 bg-gradient-to-r from-emerald-500 to-ocean-500 mx-auto rounded-full" />
-          <p className="text-slate-400 mt-4 sm:text-base font-sans transition-colors duration-300">
+          <p className="text-slate-400 mt-4 text-sm sm:text-base font-sans transition-colors duration-300">
             A selection of academic simulations and cloud integrations focusing on high availability, security, and infrastructure automation.
           </p>
         </div>
@@ -97,12 +97,12 @@ export default function Projects() {
                 </div>
 
                 {/* Project Title */}
-                <h3 className="font-display font-bold sm:text-xl text-slate-100 group-hover:text-emerald-500 group-hover:text-emerald-400 transition-colors mb-3 leading-snug">
+                <h3 className="font-display font-bold text-lg sm:text-xl text-slate-100 group-hover:text-emerald-500 group-hover:text-emerald-400 transition-colors mb-3 leading-snug">
                   {project.title}
                 </h3>
 
                 {/* Description */}
-                <p className="sm:text-sm text-slate-400 leading-relaxed mb-6 flex-grow transition-colors duration-300">
+                <p className="text-xs sm:text-sm text-slate-400 leading-relaxed mb-6 flex-grow transition-colors duration-300">
                   {project.desc}
                 </p>
 
