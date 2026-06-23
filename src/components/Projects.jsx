@@ -3,7 +3,7 @@ import { Github, ExternalLink, Network, CloudLightning, ShieldAlert, Cpu } from 
 
 const PROJECTS_DATA = [
   {
-    title: "Enterprise Multi-Site Campus Network Design",
+    title: "Enterprise Multi-Site Campus Network Design app",
     category: "Networking",
     icon: <Network className="w-6 h-6 text-emerald-400" />,
     desc: "Designed and simulated a fault-tolerant multi-site corporate network topology. Configured dynamic routing, network segmentation, firewalls, and redundant connections to support 500+ endpoints.",
