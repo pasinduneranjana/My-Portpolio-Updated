@@ -72,14 +72,14 @@ export default function Hero() {
           {/* Heading */}
           <motion.h1
             variants={itemVariants}
-            className="font-display font-bold sm:text-5xl md:text-6xl tracking-tight text-white leading-[1.1] mb-6 max-w-4xl transition-colors duration-300"
+            className="font-display font-bold text-4xl sm:text-5xl md:text-6xl tracking-tight text-white leading-[1.1] mb-6 max-w-4xl transition-colors duration-300"
           >
             Hi, I'm{' '}
             <span className="text-gradient-emerald-blue font-extrabold relative">
               Pasindu Naranjana
             </span>
             <br />
-            <span className="text-slate-200 mt-3 block sm:text-4xl md:text-5xl font-medium transition-colors duration-300">
+            <span className="text-slate-200 mt-3 block text-2xl sm:text-4xl md:text-5xl font-medium transition-colors duration-300">
               A Network & Cloud Enthusiast.
             </span>
           </motion.h1>
