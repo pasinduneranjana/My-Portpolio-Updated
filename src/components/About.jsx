@@ -74,7 +74,7 @@ export default function About() {
 
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-20">
-          <h2 className="font-display font-bold sm:text-4xl text-white mb-4 transition-colors duration-300">
+          <h2 className="font-display font-bold text-3xl sm:text-4xl text-white mb-4 transition-colors duration-300">
             About <span className="text-gradient-emerald-blue">Me</span>
           </h2>
           <div className="h-1 w-20 bg-gradient-to-r from-emerald-500 to-ocean-500 mx-auto rounded-full" />
@@ -136,17 +136,17 @@ export default function About() {
             variants={textVariants}
           >
             <span className="tracking-widest text-emerald-400 font-bold uppercase mb-2">Introduction</span>
-            <h3 className="font-display sm:text-3xl font-bold text-slate-100 mb-6 leading-tight transition-colors duration-300">
+            <h3 className="font-display text-2xl sm:text-3xl font-bold text-slate-100 mb-6 leading-tight transition-colors duration-300">
               Engineering connections and designing the clouds of tomorrow.
             </h3>
-            <p className="text-slate-400 font-sans sm:text-base leading-relaxed mb-5 transition-colors duration-300">
+            <p className="text-slate-400 font-sans text-sm sm:text-base leading-relaxed mb-5 transition-colors duration-300">
               BICT (Hons) undergraduate at the University of Vavuniya with a strong foundation in computer networking, routing, switching, subnetting, and IP addressing using Cisco Packet Tracer and CCNA-based learning.
             </p>
-            <p className="text-slate-400 font-sans sm:text-base leading-relaxed mb-6 transition-colors duration-300">
+            <p className="text-slate-400 font-sans text-sm sm:text-base leading-relaxed mb-6 transition-colors duration-300">
               Experienced with Linux and Ubuntu environments, basic Python programming, and AWS cloud fundamentals. Passionate about network infrastructure, cloud technologies, and system administration, with strong problem-solving and analytical skills. Seeking a Network Engineering or Cloud Computing Internship to apply technical knowledge, gain hands-on industry experience, and contribute to reliable and secure IT infrastructure solutions
             </p>
 
-            <div className="flex items-center gap-3.5 p-4 rounded-2xl glass border border-slate-800/80 sm:text-sm text-slate-300 max-w-xl transition-colors duration-300">
+            <div className="flex items-center gap-3.5 p-4 rounded-2xl glass border border-slate-800/80 text-xs sm:text-sm text-slate-300 max-w-xl transition-colors duration-300">
               <Heart className="w-5 h-5 text-emerald-500 fill-emerald-500/20 shrink-0" />
               <span>Dedicated to continuous learning and cloud automation technologies.</span>
             </div>
